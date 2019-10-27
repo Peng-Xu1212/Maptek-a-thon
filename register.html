@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Maptek</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito:400,700%7COpen+Sans:400,700" />
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  	<link rel="stylesheet" type="text/css" href="js/lib/bootstrap/css/bootstrap.min.css" />
+  	<link rel="stylesheet" type="text/css" href="js/lib/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+    <link rel="stylesheet" href="./public/stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/lib/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<img src="./public/stylesheets/images/home.png" width="150" height="60" />
+					<h1>Maptek-a-thon</h1>
+
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="admin.html">ADMINISTRATOR</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="register.html">Register an account</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<section id="showcase">
+			<div class="container">
+				<h1>Welcome to join us!</h1>
+				 <p>Sign Up Here</p>
+			</div>
+
+		</section>
+
+		<section id="newsletter">
+			<div class="container">
+				<h1>You need to sign up before your continuing</h1>
+        <form action="http://127.0.0.1:8081/process_post" method="POST">
+  Account: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="account" placeholder="Enter your account"> <br>
+  Password: &nbsp;&nbsp;<input type="text" name="password" placeholder="Enter your password"> <br>
+  Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="Enter your name"> <br>
+<input type="submit" class="button_1" value="Submit">
+</form>
+			</div>
+
+		</section>
+
+		<footer>
+      <a href="#"><i class="fa fa-facebook" style="color:#ffffff;"></i></a>
+      <a href="#"><i class="fa fa-twitter" style="color:#ffffff;"></i></a>
+      <a href="#"><i class="fa fa-google-plus" style="color:#ffffff;"></i></a>
+      <a href="#"><i class="fa fa-pinterest" style="color:#ffffff;"></i></a>
+
+			<p>Maptek, copyright &copy; 2019</p>
+		</footer>
+	</body>
+</html>
